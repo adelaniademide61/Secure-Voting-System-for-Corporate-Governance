@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.proposal-submission]
+path = 'contracts/proposal-submission.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.shareholder-verification]
 path = 'contracts/shareholder-verification.clar'
 clarity_version = 2
